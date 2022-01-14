@@ -1,18 +1,25 @@
-.background {
-  /* test after image in background min-width : 1440px; */
-  min-width: auto;
-  height: auto;
-  position: fixed;
-  background-position: left;
-  top: 0;
-  left: 0;
-  background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
-  background-color: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-}
-
 .hero {
   position: fixed;
   top: 0;
   right: 0;
   background-position: right;
 }
+
+.cardBackground {
+  background: url("../assets/bg-pattern-desktop.svg"),
+    linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)),
+    linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  background-position: left;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+/*
+ background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+
+  background-color: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+ */

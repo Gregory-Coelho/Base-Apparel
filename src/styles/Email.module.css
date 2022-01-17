@@ -42,3 +42,11 @@
 .buttonEmail:focus {
   box-shadow: 5px 5px 5px grey;
 }
+.messageError {
+  color: hsl(0, 93%, 68%);
+  padding-left: 50px;
+}
+.errorIcon {
+  position: absolute;
+  right: 100px;
+}

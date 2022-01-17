@@ -1,5 +1,6 @@
 import styles from "../styles/Card.module.css";
 import logo from "../assets/logo.svg";
+import { Email } from "./Email";
 
 export function Card() {
   return (
@@ -21,6 +22,9 @@ export function Card() {
             store. Add your email below to stay up-to-date with announcements
             and our launch deals.
           </p>
+        </div>
+        <div>
+          <Email />
         </div>
       </div>
     </div>

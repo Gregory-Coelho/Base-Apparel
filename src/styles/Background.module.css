@@ -1,22 +1,14 @@
-.hero {
-  position: fixed;
-  top: 0;
-  right: 0;
-}
-
 .cardBackground {
   background: url("../assets/bg-pattern-desktop.svg"),
     linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)),
     linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-  background-position: left;
-  height: 100%;
-  min-width: 1024px;
-  width: 100%;
-
-  position: fixed;
-  top: 0;
-  left: 0;
+  flex-grow: 2;
+  flex-basis: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 /*
  background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
 

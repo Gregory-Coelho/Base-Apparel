@@ -1,10 +1,14 @@
 import React from "react";
-import { Background } from "./components/Background";
+
+import { Form } from "./components/Form";
+import { Hero } from "./components/Hero";
+import styles from "./styles/App.module.css";
 
 function App() {
   return (
-    <div>
-      <Background />
+    <div className={styles.background}>
+      <Form />
+      <Hero />
     </div>
   );
 }

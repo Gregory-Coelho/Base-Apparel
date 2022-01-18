@@ -1,10 +1,11 @@
 import styles from "../styles/Card.module.css";
 import logo from "../assets/logo.svg";
 import { Email } from "./Email";
+import back from "../styles/Background.module.css";
 
-export function Card() {
+export function Form() {
   return (
-    <div>
+    <div className={back.cardBackground}>
       <div className={styles.entireCard}>
         <div>
           <img src={logo} />

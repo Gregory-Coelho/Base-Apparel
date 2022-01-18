@@ -26,7 +26,7 @@ export function Email() {
           <img src={button} />
         </button>
       </form>
-      <p className={styles.messageError}> Please profide a valid email</p>
+      <p className={styles.messageError}> Please provide a valid email</p>
     </div>
   ) : (
     <form className={styles.formEmail}>

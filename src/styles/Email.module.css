@@ -2,7 +2,7 @@
   height: 44px;
   border: none;
   border-radius: 50px;
-  width: 400px;
+  width: 100%;
   border: 2px solid hsl(0, 36%, 70%);
   background-color: #11ffee00;
   caret-color: transparent;

@@ -9,6 +9,9 @@
   padding-left: 50px;
   outline: none;
 }
+.inputEmailError {
+  border-color: hsl(0, 93%, 68%);
+}
 
 .formEmail {
   display: flex;
@@ -36,7 +39,6 @@
 }
 
 .inputEmail:focus {
-  border-color: hsl(0, 93%, 68%);
 }
 
 .buttonEmail:focus {
